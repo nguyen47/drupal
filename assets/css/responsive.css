@@ -1,0 +1,180 @@
+/*
+Build responsive
+Author: Ryan (Lynh) Nguyen
+*/
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 1024px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+
+}
+@media screen and (min-width: 1920px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+    .revistas-slider .owl-nav .owl-prev {
+        left: 34%;
+    }
+    .revistas-slider .owl-nav .owl-next {
+        right: 34%;
+    }
+}
+@media screen and (max-width: 1092px) {
+
+}
+
+@media screen and (max-width: 1023px) {
+
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .post-new-section .post-item .post-bg .post-entry .p-title {
+        font-size: 17px;
+    }
+    .post-new-section .post-item .post-bg .post-entry {
+        padding: 5px 10px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+@media screen and (max-width: 991px) {
+    .slider-home .owl-nav {
+        bottom: 40%;
+        left: 14%;
+    }
+    .eventos-content .eventos-ports .post-ctn img {
+        height: 140px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header-home .container {
+        width: 100%;
+    }
+    .slider-home .sld-ctn .sld-info h1 {
+        font-size: 24px
+    }
+    .slider-home .sld-ctn .sld-info p {
+        font-size: 14px
+    }
+    .slider-home .owl-nav {
+        bottom: 23%
+    }
+    .slider-home .owl-nav {
+        width: 30px;
+    }
+    .slider-home .owl-nav .owl-prev,
+    .slider-home .owl-nav .owl-next {
+        width: 26px;
+        height: 26px;
+        border: 2px solid #fff;
+    }
+    .slider-home .owl-nav .btn-nav i {
+        font-size: 20px;
+    }
+    .post-new-section h3.title,
+    .journals-section .title {
+        font-size: 22px;
+    }
+    .post-new-section .post-item .post-bg .post-entry .p-cat {
+        font-size: 12px;
+        padding: 2px 12px;
+    }
+    .post-new-section .post-item .post-bg .post-entry .p-title {
+        font-size: 18px;
+    }
+    .post-new-section .post-item .post-bg .post-entry .p-date {
+        font-size: 11px;
+    }
+    .owl-item .journals-info .jo-name,
+    .owl-item .journals-info .btn-round {
+        font-size: 16px;
+    }
+    .owl-item .journals-info .jo-number {
+        font-size: 28px;
+    }
+    .journals-slider .owl-nav .owl-next {
+        right: 5%;
+    }
+    .journals-slider .owl-nav .owl-prev {
+        left: 5%;
+    }
+    .revistas-slider .owl-nav .owl-prev {
+        left: 20%;
+    }
+    .revistas-slider .owl-nav .owl-next {
+        right: 20%;
+    }
+    .revistas-interior-content .revi-ct-left .revi-about {
+        display: flex;
+        margin-bottom: 35px;
+    }
+    .revistas-interior-content .revi-ct-left .revi-about-info {
+        margin-left: 15px;
+    }
+    .revistas-statistics {
+        background-position: 73% 100%;
+    }
+    .revistas-statistics .revi-statistics-box .title {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 639px) {
+    .slider-home .sld-ctn {
+        display: flex;
+        height: 450px;
+    }
+    .revistas-interior-content .revi-tab .btn-round.red {
+        display: table;
+    }
+}
+@media screen and (max-width: 579px) {
+    .owl-item.center .journals-info {
+        margin-top: 24px;
+    }
+    .revistas-interior-content .revi-files-attach .flie {
+        width: 100%;
+        margin: 0 0 40px;
+    }
+}
+@media screen and (max-width: 449px) {
+    .slider-home .sld-ctn .sld-info {
+        bottom: 30px;
+    }
+    .slider-home .owl-nav {
+        bottom: 30%;
+    }
+    .owl-item .journals-img img {
+        min-height: 1px;
+    }
+    .revistas-slider .owl-nav .owl-prev {
+        left: 10%;
+    }
+    .revistas-slider .owl-nav .owl-next {
+        right: 10%;
+    }
+}
+@media screen and (max-width: 359px) {
+    .journals-slider .owl-nav {
+        top: 20%;
+    }
+    .revistas-slider .owl-nav {
+        top: 42%;
+    }
+    .revistas-interior-content .revi-ct-left .revi-about img {
+        width: 154px;
+        height: 154px;
+    }
+}
