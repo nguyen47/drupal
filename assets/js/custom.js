@@ -8,15 +8,22 @@ function setRateElement(objects, x, y) {
     });
 }
 
+function openNav() {
+    document.getElementById("mainSidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mainSidenav").style.width = "0";
+}
 
 (function ($) {
 
     $(document).ready(function () {
 
         // RESIZE
-        var logo = $( '.factoria-temp .logo-item > div' ).width();
-        $( '.factoria-temp .logo-item > div' ).height(logo);
-        
+        var logo = $('.factoria-temp .logo-item > div').width();
+        $('.factoria-temp .logo-item > div').height(logo);
+
         setRateElement($('.imgResize-9-5'), 9, 5);
         setRateElement($('.imgResize-2-1'), 2, 1);
         setRateElement($('.imgResize-1-1'), 1, 1);
@@ -94,6 +101,14 @@ function setRateElement(objects, x, y) {
                 }
             }
         });
+
+        //timeline
+        var timeCtnH1 = $('.programa-section .timeline .col-timeline.first').height() / 2 + 25;
+        var timeCtnH2 = $('.programa-section .timeline .col-timeline.last').height() / 2 + 25;
+        var timeCtnH3 = timeCtnH1 + timeCtnH2 - 20;
+
+        $('<style>.programa-section .timeline::after { top: ' + timeCtnH1 + 'px; height: calc(100% - ' + timeCtnH3 + 'px );}</style>').appendTo('head');
+
     });
     $(window).resize(function () {
 // RESIZE

@@ -2,7 +2,6 @@
 Build responsive
 Author: Ryan (Lynh) Nguyen
 */
-
 @media screen and (min-width: 768px) {
 
 }
@@ -31,11 +30,63 @@ Author: Ryan (Lynh) Nguyen
     }
 }
 @media screen and (max-width: 1092px) {
-
+    .office-temp h1, .office-temp h2 {
+        padding: 0 15px;
+    }
 }
 
 @media screen and (max-width: 1023px) {
+    .somos-content .somos-filter select.form-control, .somos-content .somos-filter input {
+        min-width: 150px;
+        margin-left: 10px;
+    }
+    .somos-content .somos-filter .btn-round {
+        margin-top: 10px;
+        margin-left: 0;
+    }
 
+}
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .somos-content .somos-filter select.form-control, .somos-content .somos-filter input {
+        min-width: 219px;
+    }
+    .somos-content .somos-filter .btn-round {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .header .navbar-nav li {
+        font-size: 14px;
+    }
+    .header .navbar-nav li a {
+        margin: 5px 3px;
+    }
+    .viajes-content .timeline .col-timeline.right::after {
+        left: -10px;
+    }
+    .viajes-content .tab-child .col-timeline::after {
+        background-color: #B22222;
+        border: 5px solid #FFF;
+        top: 115px;
+    }
+    .viajes-content .tab-child .right span {
+        position: absolute;
+        left: -175px;
+        top: 115px;
+        color: #000000;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    .viajes-content .timeline .col-timeline.right {
+        left: 30%;
+    }
+    .viajes-content .programa-section {
+        margin-top: 0;
+        padding-top: 30px;
+    }
+    .viajes-content .programa-section {
+        padding-bottom: 15px;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .post-new-section .post-item .post-bg .post-entry .p-title {
@@ -44,9 +95,22 @@ Author: Ryan (Lynh) Nguyen
     .post-new-section .post-item .post-bg .post-entry {
         padding: 5px 10px;
     }
-}
-@media screen and (min-width: 768px) and (max-width: 991px) {
-
+    .footer-form div div:nth-child(2n), .footer-form div div:nth-child(5) {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .somos .somos-item .item-content {
+        width: 100%;
+    }
+    .header {
+        height: 440px;
+    }
+    .header .page-title h1 {
+        margin-top: 120px;
+    }
+    .main-contain {
+        margin-bottom: 50px;
+    }
 }
 @media screen and (max-width: 991px) {
     .slider-home .owl-nav {
@@ -57,11 +121,17 @@ Author: Ryan (Lynh) Nguyen
         height: 140px;
         width: 100%;
     }
+    .plan {
+        margin-top: 30px;
+    }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .header-home .container {
         width: 100%;
+    }
+    .main-menu {
+        min-height: 0;
     }
     .slider-home .sld-ctn .sld-info h1 {
         font-size: 24px
@@ -98,6 +168,7 @@ Author: Ryan (Lynh) Nguyen
     .post-new-section .post-item .post-bg .post-entry .p-date {
         font-size: 11px;
     }
+
     .owl-item .journals-info .jo-name,
     .owl-item .journals-info .btn-round {
         font-size: 16px;
@@ -105,12 +176,14 @@ Author: Ryan (Lynh) Nguyen
     .owl-item .journals-info .jo-number {
         font-size: 28px;
     }
+
     .journals-slider .owl-nav .owl-next {
         right: 5%;
     }
     .journals-slider .owl-nav .owl-prev {
         left: 5%;
     }
+
     .revistas-slider .owl-nav .owl-prev {
         left: 20%;
     }
@@ -130,6 +203,122 @@ Author: Ryan (Lynh) Nguyen
     .revistas-statistics .revi-statistics-box .title {
         width: 90%;
     }
+
+    .header .page-title h1 {
+        font-size: 24px;
+    }
+    .eventos-temp .page-intro {
+        padding-top: 30px;
+    }
+    .eventos-temp .hightline {
+        font-size: 16px;
+    }
+    .eventos-temp .hightline:after {
+        margin-top: 10px;
+    }
+    .eventos-temp .plan ul {
+        margin: 0;
+    }
+    .eventos-content .eventos-filter .btn-round {
+        float: left;
+        margin: 0 25px 0 0;
+    }
+    .eventos-content .eventos-filter select.form-control {
+        margin-left: 0;
+    }
+    .eventos-content .eventos-ports {
+        display: inline-block;
+    }
+    .eventos-content .eventos-ports .col-sm-4 {
+        padding: 0 15px 20px;
+    }
+    .eventos-content .eventos-ports .post-ctn img {
+        height: 100%;
+    }
+    .eventos-content .eventos-ports .btn-load-more-ajax {
+        text-align: center;
+    }
+
+    .footer-form div div:nth-child(2n), .footer-form div div:nth-child(5) {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-collapse {
+        padding: 0;
+    }
+    .header .navbar-nav li a {
+        margin: 15px 4px;
+        display: inline-block;
+    }
+    .page-body .section-content {
+        width: 100%;
+        padding-top: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+        padding: 0 15px;
+        text-align: center;
+    }
+    .page-body .section-content.section-left {
+        float: right;
+        margin-right: 0;
+    }
+    .quienes-temp .contact .contact-content {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+    .revistas-temp .section-image img {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+    .revistas-temp .section-item {
+        height: auto;
+    }
+    .revistas-temp .page-body .section-content {
+        margin-left: 0;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .page-body .section-content h2:after {
+        margin: 30px auto;
+    }
+    .page-body .section-content a {
+        margin: 40px auto;
+    }
+    .revistas-temp .color-block .section-item .section-image img {
+        float: none;
+        margin-left: auto;
+    }
+    .page-body .section-content {
+        width: 100%;
+    }
+    .viajes-content .somos .somos-item img {
+        height: auto;
+    }
+    .viajes-content .tab-child .right > span {
+        display: none;
+    }
+    .viajes-content .tab-child .timeline .col-timeline.right {
+        left: 0;
+        width: 100%;
+    }
+    .viajes-content .tab-child .timeline::after {
+        left: 0;
+    }
+    .viajes-content .tab-child .col-timeline::after {
+        top: 100px;
+    }
+    .viajes-content .tab-child .col-timeline.right .content > span {
+        display: block;
+        color: #b22222; 
+        font-size: 20px;    
+        font-weight: bold;  
+        line-height: 30px;
+    }
+    .viajes-content .programa-section {
+        padding-bottom: 15px;
+    }
 }
 @media screen and (max-width: 639px) {
     .slider-home .sld-ctn {
@@ -139,6 +328,9 @@ Author: Ryan (Lynh) Nguyen
     .revistas-interior-content .revi-tab .btn-round.red {
         display: table;
     }
+    .plan {
+        margin-top: 30px;
+    }
 }
 @media screen and (max-width: 579px) {
     .owl-item.center .journals-info {
@@ -147,6 +339,9 @@ Author: Ryan (Lynh) Nguyen
     .revistas-interior-content .revi-files-attach .flie {
         width: 100%;
         margin: 0 0 40px;
+    }
+    .plan {
+        margin-top: 30px;
     }
 }
 @media screen and (max-width: 449px) {
@@ -165,6 +360,111 @@ Author: Ryan (Lynh) Nguyen
     .revistas-slider .owl-nav .owl-next {
         right: 10%;
     }
+    .page-body .section-content {
+        padding-top: 20px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .page-body .section-content.section-left {
+        float: none;
+        margin-right: 0;
+    }
+    .plan {
+        margin-top: 30px;
+    }
+    .somos .somos-item .item-content {
+        width: 80%;
+        background: #fff;
+        margin-top: -50px;
+        position: relative;
+        z-index: 1;
+        padding: 15px 20px;
+        text-align: left;
+        float: right;
+        margin-bottom: 30px;
+    }
+
+    .somos-content .somos-filter select.form-control, .somos-content .somos-filter input {
+        width: 90%;
+        margin: 5px auto;
+    }
+
+    .office-temp .post-lists {
+        padding: 15px;
+    }
+    .somos-content .form-group i {
+        font-size: 20px;
+        position: absolute;
+        top: 150px;
+        right: 25px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .page-body .section-content {
+        padding-top: 20px;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .page-body .section-content.section-left {
+        float: none;
+        margin-right: 0;
+    }
+    .plan {
+        margin-top: 30px;
+    }
+    .header, .header.header-home {
+        height: 500px;
+    }
+    .home-temp .post-new-section {
+        padding-top: 0;
+    }
+    .header .page-title h1 {
+        margin-top: 100px;
+    }
+    .navbar-collapse {
+        padding: 0 15px;
+    }
+    .main-menu {
+        background: #fff;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+
+    }
+    .header .navbar-nav li {
+        text-align: center;
+        font-size: 19px;
+        padding-bottom: 5px;
+    }
+    .header .navbar-nav li a {
+        color: #000;
+    }
+    .header .navbar-nav li a:hover, .header .navbar-nav li.active a {
+        border-bottom: 3px solid #ccc;
+    }
+    .quienes-temp .page-body .section-image img {
+        width: auto;
+        height: 300px;
+        max-width: 100%;
+    }
+    .eventos-content .eventos-filter .btn-round {
+        margin-right: 15px;
+    }
+    .eventos-content .eventos-ports {
+        padding-top: 30px;
+    }
+    .viajes-content .timeline .col-timeline {
+        padding-left: 40px;
+    }
+    .viajes-content .tab-child .col-timeline::after {
+        top: 210px;
+    }
+    .viajes-content .timeline .col-timeline.left::after, .viajes-content .timeline .col-timeline.right::after {
+        left: -10px;
+    }
+    .viajes-content .programa-section {
+        padding-bottom: 15px;
+    }
 }
 @media screen and (max-width: 359px) {
     .journals-slider .owl-nav {
@@ -176,5 +476,17 @@ Author: Ryan (Lynh) Nguyen
     .revistas-interior-content .revi-ct-left .revi-about img {
         width: 154px;
         height: 154px;
+    }
+    .page-body .section-content {
+        padding-top: 20px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+    }
+    .page-body .section-content.section-left {
+        float: none;
+        margin-right: 0;
+    }
+    .plan {
+        margin-top: 30px;
     }
 }
