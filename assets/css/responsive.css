@@ -5,11 +5,9 @@ Author: Ryan (Lynh) Nguyen
 @media screen and (min-width: 768px) {
 
 }
-
 @media screen and (min-width: 992px) {
 
 }
-
 @media screen and (min-width: 1024px) {
 
 }
@@ -58,7 +56,7 @@ Author: Ryan (Lynh) Nguyen
         font-size: 14px;
     }
     .header .navbar-nav li a {
-        margin: 5px 3px;
+        margin: 5px 8px;
     }
     .viajes-content .timeline .col-timeline.right::after {
         left: -10px;
@@ -114,7 +112,7 @@ Author: Ryan (Lynh) Nguyen
 }
 @media screen and (max-width: 991px) {
     .slider-home .owl-nav {
-        bottom: 40%;
+        bottom: 33%;
         left: 14%;
     }
     .eventos-content .eventos-ports .post-ctn img {
@@ -190,11 +188,11 @@ Author: Ryan (Lynh) Nguyen
     .revistas-slider .owl-nav .owl-next {
         right: 20%;
     }
-    .revistas-interior-content .revi-ct-left .revi-about {
+    .interior-content .inter-ct-left .revi-about {
         display: flex;
         margin-bottom: 35px;
     }
-    .revistas-interior-content .revi-ct-left .revi-about-info {
+    .interior-content .inter-ct-left .revi-about-info {
         margin-left: 15px;
     }
     .revistas-statistics {
@@ -206,6 +204,106 @@ Author: Ryan (Lynh) Nguyen
 
     .header .page-title h1 {
         font-size: 24px;
+    }
+    .banner {
+        padding: 43px 0 0;
+    }
+    .banner .banner-marker img {
+        width: 55px;
+    }
+    .banner .banner-content .banner-text-1 {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+    .banner .banner-content .banner-text-2 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+    .banner .banner-content .banner-box {
+        font-size: 16px;
+        line-height: 1.4;
+        margin-top: 66px;
+    }
+    .banner .banner-content .banner-box .banner-info i {
+        font-size: 20px;
+    }
+    .programa-section {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .programa-section .page-title {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .programa-section .nav.flex-center-colum {
+        display: inline-block;
+        width: 100%;
+    }
+    .programa-section .nav li {
+        width: 100%;
+        text-align: center;
+    }
+    .programa-section .nav li a {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .programa-section .timeline::after {
+        left: 0;
+    }
+    .programa-section .nav {
+        margin-bottom: 30px;
+    }
+    .timeline .col-timeline.left::before {
+        left: 30px;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #f7f7f7 transparent transparent;
+    }
+    .timeline .col-timeline::after {
+        left: -11px;
+    }
+    .timeline .col-timeline {
+        width: 100%
+    }
+    .timeline .col-timeline.left,
+    .timeline .col-timeline.right {
+        left: 0;
+    }
+    .timeline .col-timeline .content i {
+        font-size: 14px;
+        margin-right: 7px;
+        color: #0D70EB;
+    }
+    .timeline .col-timeline .content .ctn-right .time {
+        font-size: 16px;
+        line-height: 30px;
+        margin: 0;
+    }
+    .timeline .col-timeline .content .ctn-right .title {
+        font-size: 16px;
+        line-height: 20px
+    }
+    .ponentes-section {
+        padding: 35px 0 0;
+    }
+    .ponentes-section .flex-wrap-center-colum .col-xs-6 {
+        margin-bottom: 25px;
+    }
+    .ponentes-section .title {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+    .ponentes-section img {
+        margin: 15px auto 10px;
+    }
+    .ponentes-section .name {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 7px;
+    }
+    .ponentes-section .txt {
+        font-size: 14px;
+        line-height: 18px;
     }
     .eventos-temp .page-intro {
         padding-top: 30px;
@@ -319,13 +417,171 @@ Author: Ryan (Lynh) Nguyen
     .viajes-content .programa-section {
         padding-bottom: 15px;
     }
+
+    .banner img {
+        margin: 0 auto;
+    }
+    .banner .banner-content .banner-box {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .banner .banner-content .banner-box:first-of-type {
+        padding-bottom: 10px;
+    }
+    .banner .banner-content .banner-box:last-of-type {
+        margin: 0;
+        padding-top: 10px;
+    }
+    .noticias-section .noticias-item {
+        margin-bottom: 45px;
+    }
+    .noticias-section .noticias-item:last-of-type {
+        margin-bottom: 0;
+    }
+    .evento-owl .evento-owl-carousel {
+        position: relative;
+    }
+    .evento-owl .evento-owl-carousel .owl-nav {
+        position: absolute;
+        top: calc(50% - 14px);
+        margin: 0;
+        width: 100%
+    }
+    .evento-owl .evento-owl-carousel .owl-nav i {
+        color: #1b1b1b;
+        font-size: 20px
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-prev,
+    .evento-owl .evento-owl-carousel .owl-nav .owl-next {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background-color: #fff;
+        border: 1px solid #1b1b1b;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-prev {
+        position: absolute;
+        left: 3%
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-next {
+        position: absolute;
+        right: 3%
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-prev:hover,
+    .evento-owl .evento-owl-carousel .owl-nav .owl-next:hover {
+        background-color: #869791
+    }
+    .interior-content {
+        padding-top: 33px;
+        padding-bottom: 33px;
+    }
+    .interior-content .inter-meta,
+    .interior-content .inter-meta .inter-cat,
+    .interior-content .inter-meta .date {
+        font-size: 10px;
+    }
+    .interior-content .inter-meta {
+        margin-bottom: 5px;
+    }
+    .interior-content .inter-title h2 {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+    .interior-content.inter-thumb {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .interior-content .inter-thumb img {
+        margin-bottom: 30px;
+    }
+    .inter-content p,
+    .inter-content blockquote{
+        margin-bottom: 25px;
+    }
+    .inter-content blockquote {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .interior-content .inter-tab {
+        margin: 50px 0 35px;
+        padding: 0;
+        border: 0;
+    }
+    .interior-content .noticias-section {
+        padding: 31px 0;
+    }
+    .noticias-section h3.title {
+        font-size: 22px;
+        line-height: 26px;
+        margin-bottom: 31px;
+    }
+    .noticias-section .noticias-item .p-cat {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .noticias-section .noticias-item .p-title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .evento-owl {
+        padding: 40px 0 60px;
+    }
+    .evento-owl h3.title {
+        margin-bottom: 33px;
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-prev {
+        left: 0
+    }
+    .evento-owl .evento-owl-carousel .owl-nav .owl-next {
+        right: 0
+    }
+    header .btn-menu {
+        font-size: 10px;
+        line-height: 12px;
+    }
+    .actualidad-temp .eventos-content {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+    .actualidad-temp .post-new-section {
+        padding-top: 33px;
+    }
+    .actualidad-temp .eventos-content .btn-load-more-ajax a {
+        margin: 15px 0 0;
+    }
+    .actualidad-interior-single .header {
+        padding-top: 20px;
+        height: 80px;
+    }
+    .interior-content .inter-contact-info .clearfix {
+        display: none;
+    }
+    .post-new-section .post-lists {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .actualidad-temp .actualidad.post-new-section {
+        padding-top: 66px;
+        padding-bottom: 40px;
+    }
+    .post-lists > h2 {
+        font-size: 22px;
+    }
 }
 @media screen and (max-width: 639px) {
     .slider-home .sld-ctn {
         display: flex;
         height: 450px;
     }
-    .revistas-interior-content .revi-tab .btn-round.red {
+    .interior-content .inter-tab .btn-round.red {
         display: table;
     }
     .plan {
@@ -336,7 +592,7 @@ Author: Ryan (Lynh) Nguyen
     .owl-item.center .journals-info {
         margin-top: 24px;
     }
-    .revistas-interior-content .revi-files-attach .flie {
+    .interior-content .inter-files-attach .flie {
         width: 100%;
         margin: 0 0 40px;
     }
@@ -397,6 +653,18 @@ Author: Ryan (Lynh) Nguyen
         position: absolute;
         top: 150px;
         right: 25px;
+    }
+    .navbar-toggle .icon-bar {
+        width: 25px;
+    }
+    .navbar-toggle .icon-bar:nth-child(2) {
+        width: 20px;
+    }
+    .navbar-toggle .icon-bar + .icon-bar {
+        margin-top: 6px;
+    }
+    .footer-content p {
+        width: 100%;
     }
 }
 @media screen and (max-width: 375px) {
@@ -465,6 +733,9 @@ Author: Ryan (Lynh) Nguyen
     .viajes-content .programa-section {
         padding-bottom: 15px;
     }
+    .viajes-content .tab-child .timeline::after {
+        top: 210px;
+    }
 }
 @media screen and (max-width: 359px) {
     .journals-slider .owl-nav {
@@ -473,7 +744,7 @@ Author: Ryan (Lynh) Nguyen
     .revistas-slider .owl-nav {
         top: 42%;
     }
-    .revistas-interior-content .revi-ct-left .revi-about img {
+    .interior-content .inter-ct-left .revi-about img {
         width: 154px;
         height: 154px;
     }

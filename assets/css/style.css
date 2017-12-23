@@ -45,7 +45,7 @@ body {
 
 .header .navbar-nav li a {
     text-shadow: none;
-    margin: 5px 8px;
+    margin: 5px 15px;
     padding: 0;
     color: #FFFFFF;
 }
@@ -161,6 +161,9 @@ body {
 
 .color-block {
     background-color: #F7F7F7;
+}
+.post-lists > h2 {
+    font-weight: 700;
 }
 /*** QUIENES PAGE ***/
 
@@ -413,7 +416,7 @@ body {
     min-width: 100px;
 }
 .somos-content .somos-filter .btn-round {
-    margin: 0 0 0 25px;
+    margin: 0 0 0 55px;
     background-color: transparent;
     color: #5d5d5d;
     border-color: #5d5d5d;
@@ -583,6 +586,7 @@ body {
 }
 .viajes-content .programa-section {
     margin-top: 80px;
+    padding-bottom: 0;
 }
 .viajes-content .flex-center-colum.tab-parent {
     justify-content: left;
@@ -665,6 +669,8 @@ body {
 .viajes-content .tab-child .timeline::after {
     width: 3px;
     left: 30%;
+    top: 110px;
+    bottom: 100px;
 }
 .viajes-content .tab-child .timeline .col-timeline.right {
     left: 30%;
@@ -693,6 +699,20 @@ body {
 }
 .viajes-content .tab-child .col-timeline.right .content > span {
     display: none;
+}
+.viajes-content .programa-section .nav.tab-parent li a {
+    padding: 0;
+}
+.viajes-content .programa-section .nav.tab-parent li {
+    margin-right: 30px;
+}
+.viajes-content .programa-section .nav.tab-parent a:hover, .viajes-content .programa-section .nav.tab-parent a:focus {
+    background: none;
+}
+.viajes-content .somos {
+    padding-left: -15px;
+    padding-right: -15px;
+    margin-top: 40px;
 }
 /*** FOOTER ***/
 .footer {
