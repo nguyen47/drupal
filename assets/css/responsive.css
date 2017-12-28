@@ -97,9 +97,6 @@ Author: Ryan (Lynh) Nguyen
         padding-right: 15px;
         padding-left: 15px;
     }
-    .somos .somos-item .item-content {
-        width: 100%;
-    }
     .header {
         height: 440px;
     }
@@ -354,7 +351,7 @@ Author: Ryan (Lynh) Nguyen
         margin-left: 0;
         margin-bottom: 30px;
         padding: 0 15px;
-        text-align: center;
+        text-align: left;
     }
     .page-body .section-content.section-left {
         float: right;
@@ -379,10 +376,10 @@ Author: Ryan (Lynh) Nguyen
         text-align: center;
     }
     .page-body .section-content h2:after {
-        margin: 30px auto;
+        margin: 10px 0;
     }
-    .page-body .section-content a {
-        margin: 40px auto;
+    .revistas-temp .page-body .section-content h2:after, .revistas-temp .page-body .section-content a {
+        margin: 20px auto;
     }
     .revistas-temp .color-block .section-item .section-image img {
         float: none;
@@ -572,9 +569,41 @@ Author: Ryan (Lynh) Nguyen
         padding-top: 66px;
         padding-bottom: 40px;
     }
+    .actualidad-temp .post-new-section .post-lists {
+        padding: 0;
+    }
     .post-lists > h2 {
         font-size: 22px;
     }
+    .footer {
+        overflow: hidden;
+    }
+    .footer-form input[type="submit"] {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+    .footer .ads {
+        margin-top: 140px;
+        margin-bottom: 0;
+        margin-left: -15px;
+        padding-left: 0;
+        margin-right: -15px;
+        padding-right: 0px;
+        width: 105%;
+    }
+    .post-new-section {
+        padding-bottom: 0;
+    }
+    .somos .somos-item img {
+        margin: 0;
+    }
+    .somos .somos-item .item-content {
+        width: 95%;
+        float: right;
+        margin-bottom: 50px;
+    }
+
 }
 @media screen and (max-width: 639px) {
     .slider-home .sld-ctn {
