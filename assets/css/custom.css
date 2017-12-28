@@ -102,7 +102,7 @@ a:hover {
 ----------------------------------------------- */
 .journals-slider .owl-item,
 .revistas-slider .owl-item {
-    opacity: .6;
+    opacity: .5;
 }
 .journals-slider .owl-item .item-box,
 .revistas-slider .owl-item .item-box {
@@ -261,6 +261,9 @@ a:hover {
     line-height: 0.6;
     margin-top: -3px;
 }
+.mobile-item {
+    display: none;
+}
 
 .post-new-section {
     padding-top: 13rem;
@@ -324,6 +327,9 @@ a:hover {
     font-size: 16px;
     line-height: 19px;
     margin: 0;
+}
+.post-new-section .post-item .post-bg .post-entry .p-name {
+    display: none;
 }
 
 .journals-section {
@@ -1073,6 +1079,10 @@ header .sidenav .social-sp {
 
 .microsite-evento-template header {
     border: 1px solid #B9B9B9;
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    z-index: 999;
 }
 .interior-content .inter-meta {
     margin-bottom: 12px;

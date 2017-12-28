@@ -616,6 +616,41 @@ Author: Ryan (Lynh) Nguyen
     .plan {
         margin-top: 30px;
     }
+    .main-menu {
+        background: #fff;
+        position: absolute;
+        width: 100%;
+        z-index: 999;
+
+    }
+    .header .navbar-nav li {
+        text-align: center;
+        font-size: 19px;
+        padding-bottom: 5px;
+    }
+    .header .navbar-nav li a {
+        color: #000;
+    }
+    .header .navbar-nav li a:hover, .header .navbar-nav li.active a {
+        border-bottom: 3px solid #ccc;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .post-new-section .post-item .post-bg .post-entry .p-name {
+        display: inline-block;
+        padding-right: 5px;
+    }
+    .journals-slider .owl-nav {
+        top: 25%;
+    }
+    .journals-slider .owl-nav .owl-prev, .journals-slider .owl-nav .owl-next {
+        width: 45px;
+        height: 45px;
+    }
+    .journals-slider.owl-theme .owl-nav [class*=owl-] {
+        font-size: 28px;
+    }
 }
 @media screen and (max-width: 579px) {
     .owl-item.center .journals-info {
@@ -668,10 +703,38 @@ Author: Ryan (Lynh) Nguyen
         float: right;
         margin-bottom: 30px;
     }
-
+    .slider-home .sld-ctn .sld-info p {
+        display: none;
+    }
+    .slider-home .sld-ctn {
+        height: 350px;
+        overflow: hidden;
+    }
+    .slider-home .sld-ctn .sld-info h1:after {
+        display: none;
+    }
+    .slider-home .sld-ctn .sld-info {
+        bottom: 0;
+    }
+    .slider-home .owl-nav {
+        bottom: 35%;
+    }
+    .mobile-item {
+        display: block;
+        padding: 20px 15px;
+    }
+    .slider-home .sld-ctn .sld-info h1 {
+        padding: 0;
+    }
+    .slider-home .owl-nav .owl-prev, .slider-home .owl-nav .owl-next {
+        margin: 5px 0;
+    }
     .somos-content .somos-filter select.form-control, .somos-content .somos-filter input {
         width: 90%;
         margin: 5px auto;
+    }
+    .header.header-home{
+        height: 370px;
     }
 
     .office-temp .post-lists {
@@ -721,31 +784,15 @@ Author: Ryan (Lynh) Nguyen
     .navbar-collapse {
         padding: 0 15px;
     }
-    .main-menu {
-        background: #fff;
-        position: absolute;
-        width: 100%;
-        z-index: 999;
-
-    }
-    .header .navbar-nav li {
-        text-align: center;
-        font-size: 19px;
-        padding-bottom: 5px;
-    }
-    .header .navbar-nav li a {
-        color: #000;
-    }
-    .header .navbar-nav li a:hover, .header .navbar-nav li.active a {
-        border-bottom: 3px solid #ccc;
-    }
+    
     .quienes-temp .page-body .section-image img {
         width: auto;
         height: 300px;
         max-width: 100%;
     }
     .eventos-content .eventos-filter .btn-round {
-        margin-right: 15px;
+        margin-right: 5px;
+        padding: 6px 7px;
     }
     .eventos-content .eventos-ports {
         padding-top: 30px;
