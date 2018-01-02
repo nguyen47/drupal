@@ -603,6 +603,10 @@ Author: Ryan (Lynh) Nguyen
         float: right;
         margin-bottom: 50px;
     }
+    .quienes-temp .page-body .section-image img {
+        height: auto;
+        width: 100%;
+    }
 
 }
 @media screen and (max-width: 639px) {
