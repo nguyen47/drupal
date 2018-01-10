@@ -272,6 +272,10 @@ a:hover {
     padding-top: 13rem;
     padding-bottom: 11rem;
 }
+.viajes-temp .post-new-section {
+    padding-top: 6rem;
+    padding-bottom: 0;
+}
 .post-new-section h3.title {
     font-size: 32px;
     font-weight: 700;

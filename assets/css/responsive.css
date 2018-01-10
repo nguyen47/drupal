@@ -12,12 +12,15 @@ Author: Ryan (Lynh) Nguyen
 
 }
 
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1366px) and (max-width: 1899px) {
     .quienes-temp .page-body .section-image img {
         height: 460px;
     }
     .page-body .section-content {
         padding-top: 60px;
+    }
+    .slider-home .owl-nav {
+        left: 15%;
     }
 }
 @media screen and (min-width: 1920px) {
