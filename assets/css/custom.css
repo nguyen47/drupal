@@ -270,7 +270,7 @@ a:hover {
 
 .post-new-section {
     padding-top: 13rem;
-    padding-bottom: 11rem;
+    padding-bottom: 0;
 }
 .viajes-temp .post-new-section {
     padding-top: 6rem;
@@ -629,8 +629,13 @@ a:hover {
     border: 1px solid #dedede;
     height: 100%;
 }
+.post-ctn > a {
+    display: block;
+    max-height: 255px;
+    overflow: hidden;
+}
 .eventos-content .eventos-ports .post-ctn img {
-    height: 200px;
+    min-height: 255px;
     width: 100%;
 }
 .eventos-content .eventos-ports .post-ctn .eve-txt {

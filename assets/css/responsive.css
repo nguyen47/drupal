@@ -130,6 +130,9 @@ Author: Ryan (Lynh) Nguyen
 }
 
 @media screen and (max-width: 768px) {
+    .header {
+        background-size: cover !important;
+    }
     .header-home .container {
         width: 100%;
     }
@@ -336,7 +339,9 @@ Author: Ryan (Lynh) Nguyen
         padding: 0 15px 20px;
     }
     .eventos-content .eventos-ports .post-ctn img {
-        height: 100%;
+        height: 140px;
+        width: auto;
+        min-height: 100px;
     }
     .eventos-content .eventos-ports .btn-load-more-ajax {
         text-align: center;
@@ -627,6 +632,10 @@ Author: Ryan (Lynh) Nguyen
     }
 }
 @media screen and (max-width: 639px) {
+    .eventos-content .eventos-ports .post-ctn img {
+        width: 100%;
+        height: auto;
+    }
     .slider-home .sld-ctn {
         display: flex;
         height: 450px;
