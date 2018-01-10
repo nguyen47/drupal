@@ -28,6 +28,9 @@ a:hover {
     -o-transition: ease 0.4s all;
     transition: ease 0.4s all;
 }
+.viajes-event-info .btn-round {
+    padding: 10px 60px;
+}
 .btn-round i {
     padding-left: 10px;
 }

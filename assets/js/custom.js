@@ -18,9 +18,9 @@ function closeNav() {
 
 (function ($) {
     $(document).ready(function () {
-        $('a[href^="."]').on('click', function(event) {
+        $('a[href^="."]').on('click', function (event) {
             var target = $(this.getAttribute('href'));
-            if( target.length ) {
+            if (target.length) {
                 event.preventDefault();
                 $('html, body').stop().animate({
                     scrollTop: target.offset().top - 50
@@ -158,6 +158,15 @@ function closeNav() {
         var timeCtnH3 = timeCtnH1 + timeCtnH2 - 20;
 
         $('<style>.programa-section .timeline::after { top: ' + timeCtnH1 + 'px; height: calc(100% - ' + timeCtnH3 + 'px );}</style>').appendTo('head');
+
+        $('.btn-filter').on('click', function () {
+            var collapsed = $('.eventos-filter-select').hasClass('hidden-xs');
+            if (!collapsed) {
+                $('.eventos-filter-select').addClass('hidden-xs');
+            } else {
+                $('.eventos-filter-select').removeClass('hidden-xs');
+            }
+        });
 
     });
     $(window).resize(function () {

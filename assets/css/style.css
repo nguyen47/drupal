@@ -78,9 +78,23 @@ body {
     margin-top: 200px;
 }
 
+.header .main-menu {
+	margin-top: 15px;
+}
+
 .main-contain {
     margin-bottom: 200px;
     background: #fff;
+}
+.post-bg {
+    position: relative;
+}
+.post-bg > a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 .page-intro {
     margin-top: -170px;
@@ -166,10 +180,12 @@ body {
     font-weight: 700;
 }
 /*** QUIENES PAGE ***/
-
+.quienes-temp .section-image {
+	overflow: hidden;
+}
 .quienes-temp .page-body .section-image img{
     height: 600px;
-    width: 100%;
+    min-width: 100%;
 }
 
 .quienes-temp .somos > .row {
@@ -224,9 +240,10 @@ body {
 .quienes-temp .contact h1 {
     margin-bottom: 40px;
     margin-top: 100px;
+    font-weight: bold;
 }
 
-.quienes-temp .contact #map iframe {
+.quienes-temp .contact #map img {
     width: 100% !important;
     height: 490px !important;
     object-fit: over;

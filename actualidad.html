@@ -6,15 +6,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Actualidad</title>
-        <link rel="stylesheet" href="assets/css/font-awesome.css">
         <link rel="stylesheet" href="assets/css/bootstrap.css">
         <link rel="stylesheet" href="assets/css/bootstrap-theme.css">
+        <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/vendor/OwlCarousel/css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="assets/vendor/OwlCarousel/css/owl.carousel.min.css">
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/custom.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
-        <script src="assets/js/jquery-3.2.1.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/custom.js"></script>
+
+        <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="assets/vendor/OwlCarousel/js/owl.carousel.min.js"></script>
+        <script type="text/javascript" src="assets/js/custom.js"></script>
     </head>
     <body>
 
@@ -60,8 +65,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="eventos-filter">
+                                <a href="javascript:void(0)" class="btn-round btn-filter visible-xs"><i class="fa fa-sliders" aria-hidden="true"></i> Filtrar</a>
                                 <form class="form-inline">
-                                    <div class="form-group hidden-xs">
+                                    <div class="form-group eventos-filter-select hidden-xs">
                                         <label>Filtar por:</label>
                                         <select class="form-control">
                                             <option value="">Categorías</option>
@@ -80,7 +86,6 @@
                                             <option value="1">5</option>
                                         </select>
                                     </div>
-                                    <button type="submit" class="btn-round visible-xs"><i class="fa fa-sliders" aria-hidden="true"></i> Filtrar</button>
                                     <button type="submit" class="btn-round">Ver todos</button>
                                     <div class="clearfix"></div>
                                 </form>
@@ -208,13 +213,13 @@
                 <div class="row">
                     <div class="col-md-6 footer-content">
                         <h1>Contacta con nosotros</h1>
-                        <p>¿Necesitas ayuda en algo? Rellena este formulario y nos pondremos en contacto contigo lo antes posible.</p>
+                        <p>¿Necesitas ayuda en algo? <br/>Rellena este formulario y nos pondremos en contacto contigo lo antes posible.</p>
                     </div>
                     <div class="col-md-6 footer-form">
                         <form>
                             <div class="row">
                                 <div class="col-xs-12 col-md-6">
-                                    <input type="text" placeholder="Lucas" value="">
+                                    <input type="text" placeholder="Nombre" value="">
                                 </div>
                                 <div class="col-xs-12 col-md-6">
                                     <input type="text" placeholder="Apellidos" value="">

@@ -12,8 +12,13 @@ Author: Ryan (Lynh) Nguyen
 
 }
 
-@media screen and (min-width: 1440px) {
-
+@media screen and (min-width: 1366px) {
+    .quienes-temp .page-body .section-image img {
+        height: 460px;
+    }
+    .page-body .section-content {
+        padding-top: 60px;
+    }
 }
 @media screen and (min-width: 1920px) {
 
@@ -554,6 +559,13 @@ Author: Ryan (Lynh) Nguyen
     .actualidad-temp .eventos-content .btn-load-more-ajax a {
         margin: 15px 0 0;
     }
+    .actualidad-temp .eventos-content .eventos-filter label {
+        display: none
+    }
+    .actualidad-temp .eventos-content .eventos-filter select.form-control {
+        margin-top: 10px;
+        display: inline-block;
+    }
     .actualidad-interior-single .header {
         padding-top: 20px;
         height: 80px;
@@ -607,7 +619,9 @@ Author: Ryan (Lynh) Nguyen
         height: auto;
         width: 100%;
     }
-
+    .footer-link ul {
+        padding-left: 0;
+    }
 }
 @media screen and (max-width: 639px) {
     .slider-home .sld-ctn {
@@ -654,6 +668,20 @@ Author: Ryan (Lynh) Nguyen
     }
     .journals-slider.owl-theme .owl-nav [class*=owl-] {
         font-size: 28px;
+    }
+    .footer-link ul li a {
+        color: #979797;
+        font-size: 13px;
+        line-height: 19px;
+        text-align: left;
+        padding: 0;
+        padding-right: 10px;
+    }
+    .footer-link ul li:last-child a {
+        padding-right: 0;
+    }
+    .copyright p {
+        text-align: center;
     }
 }
 @media screen and (max-width: 579px) {
@@ -788,7 +816,7 @@ Author: Ryan (Lynh) Nguyen
     .navbar-collapse {
         padding: 0 15px;
     }
-    
+
     .quienes-temp .page-body .section-image img {
         width: auto;
         height: 300px;
