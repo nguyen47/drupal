@@ -178,6 +178,7 @@ body {
 }
 .post-lists > h2 {
     font-weight: 700;
+    padding-left: 10px;
 }
 /*** QUIENES PAGE ***/
 .quienes-temp .section-image {
@@ -352,7 +353,10 @@ body {
     width: 70%;
     vertical-align: middle;
 }
-
+.actualidad-temp {
+	margin-top: -170px;
+	background: #fff;
+}
 .factoria-temp .actualidad {
     padding-top: 50px;
 }
