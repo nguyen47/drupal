@@ -414,6 +414,7 @@ Author: Ryan (Lynh) Nguyen
         width: 100%;
     }
     .viajes-content .somos .somos-item img {
+    	width: 100%;
         height: auto;
     }
     .viajes-content .tab-child .right > span {
