@@ -245,10 +245,14 @@ body {
     font-weight: bold;
 }
 
+.quienes-temp .contact #map {
+    overflow: hidden;
+}
+
 .quienes-temp .contact #map img {
-    width: 100%;
+    width: auto;
     height: 490px;
-    object-fit: over;
+    object-fit: cover;
 }
 
 .quienes-temp .contact .contact-content {

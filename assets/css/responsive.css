@@ -740,7 +740,8 @@ Author: Ryan (Lynh) Nguyen
 }
 @media screen and (max-width: 449px) {
 	.quienes-temp .page-body .section-image img {
-		height: auto;
+		height: 230px;
+        width: auto;
 	}
     .slider-home .sld-ctn .sld-info {
         bottom: 30px;

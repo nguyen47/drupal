@@ -649,8 +649,9 @@ a:hover {
     overflow: hidden;
 }
 .eventos-content .eventos-ports .post-ctn img {
-    min-height: 255px;
-    width: 100%;
+    height: 255px;
+    width: auto;
+    max-width: none;
 }
 .eventos-content .eventos-ports .post-ctn .eve-txt {
     position: relative;
