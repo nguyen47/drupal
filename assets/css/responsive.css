@@ -93,6 +93,12 @@ Author: Ryan (Lynh) Nguyen
     .viajes-content .programa-section {
         padding-bottom: 15px;
     }
+    .quienes-temp .page-body .section-image img {
+    	height: 475px;
+    }
+    .page-body .section-content {
+    	padding-top: 80px;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .post-new-section .post-item .post-bg .post-entry .p-title {
@@ -214,7 +220,7 @@ Author: Ryan (Lynh) Nguyen
         font-size: 24px;
     }
     .banner {
-        padding: 43px 0 0;
+        padding: 100px 0 0;
     }
     .banner .banner-marker img {
         width: 55px;
@@ -630,8 +636,20 @@ Author: Ryan (Lynh) Nguyen
     .footer-link ul {
         padding-left: 0;
     }
+    .footer {
+    	padding-top: 50px;
+    }
+    .main-contain {
+    	margin-bottom: 50px;
+    }
+    .microsite-evento-template .footer-text {
+    	margin-top: 30px;
+    }
 }
 @media screen and (max-width: 639px) {
+	.factoria-temp .page-content .page-body h2 {
+		max-width: 100%;
+	}
     .eventos-content .eventos-ports .post-ctn img {
         width: 100%;
         height: auto;
@@ -831,7 +849,6 @@ Author: Ryan (Lynh) Nguyen
 
     .quienes-temp .page-body .section-image img {
         width: auto;
-        height: 300px;
         max-width: 100%;
     }
     .eventos-content .eventos-filter .btn-round {

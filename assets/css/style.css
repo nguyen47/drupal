@@ -357,6 +357,9 @@ body {
 	margin-top: -170px;
 	background: #fff;
 }
+.actualidad-temp.actualidad-interior {
+    margin-top: 0;
+}
 .factoria-temp .actualidad {
     padding-top: 50px;
 }
@@ -505,7 +508,7 @@ body {
 .office-temp .eventos-content {
     padding-bottom: 0;
 }
-.office-temp hr {
+.office-temp hr, .viajes-temp hr {
     margin: 50px 0;
 }
 .office-temp .post-new-section {
@@ -580,6 +583,13 @@ body {
     border-radius: 50%;
     color: #5D5D5D;
     margin-right: 15px;
+}
+.microsite i {
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    padding-top: 7px;
+    color: #000;
 }
 .office-content i:hover {
     background-color: #B22222;
