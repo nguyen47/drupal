@@ -121,6 +121,13 @@ Author: Ryan (Lynh) Nguyen
         margin-bottom: 50px;
     }
 }
+@media screen and (max-width: 1366px) {
+	.eventos-content .eventos-ports .post-ctn img {
+		width: auto;
+		height: 255px;
+		max-width: none;
+	}
+}
 @media screen and (max-width: 991px) {
     .slider-home .owl-nav {
         bottom: 33%;
@@ -347,7 +354,6 @@ Author: Ryan (Lynh) Nguyen
     .eventos-content .eventos-ports .post-ctn img {
         height: 140px;
         width: auto;
-        min-height: 100px;
     }
     .eventos-content .eventos-ports .btn-load-more-ajax {
         text-align: center;
@@ -645,6 +651,11 @@ Author: Ryan (Lynh) Nguyen
     .microsite-evento-template .footer-text {
     	margin-top: 30px;
     }
+    .quienes-temp .contact #map img {
+    	width: 100%;
+    	height: auto;
+    	margin-bottom: 30px;
+    }
 }
 @media screen and (max-width: 639px) {
 	.factoria-temp .page-content .page-body h2 {
@@ -727,6 +738,9 @@ Author: Ryan (Lynh) Nguyen
     }
 }
 @media screen and (max-width: 449px) {
+	.quienes-temp .page-body .section-image img {
+		height: auto;
+	}
     .slider-home .sld-ctn .sld-info {
         bottom: 30px;
     }
@@ -744,7 +758,7 @@ Author: Ryan (Lynh) Nguyen
     }
     .page-body .section-content {
         padding-top: 20px;
-        margin-left: 0;
+        margin-left: 10px;
         margin-bottom: 30px;
     }
     .page-body .section-content.section-left {
@@ -873,6 +887,13 @@ Author: Ryan (Lynh) Nguyen
     .viajes-content .tab-child .timeline::after {
         top: 210px;
     }
+    .somos .somos-item img {
+    	width: 100%;
+    	height: 100%;
+    }
+    .hightline:after {
+    	width: 100%;
+    }
 }
 @media screen and (max-width: 359px) {
     .journals-slider .owl-nav {
@@ -887,7 +908,6 @@ Author: Ryan (Lynh) Nguyen
     }
     .page-body .section-content {
         padding-top: 20px;
-        margin-left: 15px;
         margin-bottom: 30px;
     }
     .page-body .section-content.section-left {

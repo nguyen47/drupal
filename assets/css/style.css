@@ -245,8 +245,8 @@ body {
 }
 
 .quienes-temp .contact #map img {
-    width: 100% !important;
-    height: 490px !important;
+    width: 100%;
+    height: 490px;
     object-fit: over;
 }
 
@@ -640,8 +640,8 @@ body {
     line-height: 24px;
 }
 .viajes-content .somos .somos-item img {
-    width: 100%;
-    height: 145px;
+    width: auto;
+    height: 100%;
 }
 .viajes-content .somos .somos-item .item-content {
     width: 100%;
