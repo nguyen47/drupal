@@ -204,7 +204,7 @@ body {
 }
 
 .somos .somos-item img {
-    width: 280px;
+    width: auto;
     height: 280px;
     object-fit: cover;
     display: block;

@@ -758,6 +758,9 @@ header .btn-menu:hover {
     opacity: .8;
     color: #fff;
 }
+.microsite-evento-template .wrap {
+    padding-top: 112px;
+}
 .microsite-evento-template .navbar-toggle {
     float: none;
     margin: 0;
@@ -1110,6 +1113,7 @@ header .sidenav .social-sp {
     background: #fff;
     width: 100%;
     z-index: 999;
+    height: 112px;
 }
 .interior-content .inter-meta {
     margin-bottom: 12px;
@@ -1244,4 +1248,8 @@ header .sidenav .social-sp {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover
+}
+
+.somos.container {
+    padding-top: 95px;
 }
