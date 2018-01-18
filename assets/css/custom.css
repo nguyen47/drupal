@@ -185,11 +185,11 @@ a:hover {
 }
 .journals-slider .owl-nav .owl-prev {
     position: absolute;
-    left: 23%
+    left: 21.5%;
 }
 .journals-slider .owl-nav .owl-next {
     position: absolute;
-    right: 23%
+    right: 21.5%;
 }
 
 /* = Home Page
@@ -276,6 +276,9 @@ a:hover {
     padding-top: 6rem;
     padding-bottom: 0;
 }
+.viajes-temp .main-contain {
+    margin-bottom: 120px;
+}
 .post-new-section h3.title {
     font-size: 32px;
     font-weight: 700;
@@ -300,18 +303,18 @@ a:hover {
 }
 .post-new-section .post-item .post-bg .post-entry {
     position: absolute;
-    padding: 20px 30px;
+    padding: 20px 25px;
     bottom: 0;
 }
 .post-new-section .post-item .post-bg .post-entry .p-cat {
     background-color: #b22222;
-    padding: 7px 4px 9px;
+    padding: 5px 10px 11px;
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
     color: #fff;
     display: inline-block;
-    margin-bottom: 6px;
+    margin-bottom: 20px;
 }
 .post-new-section .post-item .post-bg .post-entry .p-cat:hover {
     background: #ea4335;
@@ -322,7 +325,7 @@ a:hover {
     font-size: 24px;
     font-weight: 700;
     line-height: 28px;
-    margin-bottom: 8px;
+    margin-bottom: 10px;
     display: inline-block;
     width: 100%;
 }
@@ -411,11 +414,11 @@ a:hover {
 }
 .revistas-slider .owl-nav .owl-prev {
     position: absolute;
-    left: 39%
+    left: 21.5%
 }
 .revistas-slider .owl-nav .owl-next {
     position: absolute;
-    right: 39%
+    right: 21.5%
 }
 
 .interior-content {

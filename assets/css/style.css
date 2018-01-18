@@ -160,8 +160,8 @@ body {
 .hightline:after {
     display: block;
     content: "";
-    width: 270px;
-    height: 2px;
+    width: 273px;
+    height: 1px;
     background: #B22222;
     margin-top: 40px;
 }
@@ -535,9 +535,9 @@ body {
 .office-info a {
     color: #4B4B4B; 
     font-size: 16px;    
-    line-height: 24px;  
+    line-height: 19px;  
     text-align: center;
-    padding: 5px 7px;
+    padding: 4px 12px 7px;
     border: 1px solid #5D5D5D;
     border-radius: 25px;
     display: inline-block;
@@ -566,12 +566,12 @@ body {
     font-weight: bold;  
     line-height: 19px;  
     text-align: center;
-    padding: 5px 7px;
+    padding: 9px 23.5px 12px;
     border-radius: 20px;    
     background-color: #B22222;
-    display: block;
-    width: 200px;
-    margin-bottom: 30px;
+    display: inline-block;
+    /*width: 200px;*/
+    margin: 10px 0 38px;
 }
 .office-content p {
     color: #5D5D5D; 
