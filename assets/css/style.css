@@ -1,11 +1,17 @@
 @font-face {
     font-family: 'proxima_novaregular';
-    src: url('../fonts/ProximaNova/proximanova-regular-webfont.eot');
-    src: url('../fonts/ProximaNova/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/ProximaNova/proximanova-regular-webfont.woff2') format('woff2'),
-         url('../fonts/ProximaNova/proximanova-regular-webfont.woff') format('woff'),
-         url('../fonts/ProximaNova/proximanova-regular-webfont.ttf') format('truetype'),
-         url('../fonts/ProximaNova/proximanova-regular-webfont.svg#proxima_novaregular') format('svg');
+    src: url('../fonts/proximanova-regular-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova-regular-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima_novabold';
+    src: url('../fonts/proximanova-bold-webfont.woff2') format('woff2'),
+         url('../fonts/proximanova-bold-webfont.ttf') format('truetype'),
+         url('../fonts/proximanova-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -73,7 +79,7 @@ body {
 .header .page-title h1 {
     color: #FFFFFF; 
     font-size: 50px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 84px;
     margin-top: 200px;
 }
@@ -105,7 +111,7 @@ body {
 .page-body .section-content h2 {
     color: #000000; 
     font-size: 32px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 38px;
 }
 
@@ -144,7 +150,7 @@ body {
     text-align: center;
     color: #FFFFFF; 
     font-size: 18px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 22px;
     padding: 10px;
     margin-top: 40px;
@@ -153,7 +159,7 @@ body {
 .hightline {
     color: #000000; 
     font-size: 22px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 30px;
 }
 
@@ -222,7 +228,7 @@ body {
 }
 .somos .somos-item .item-name {
     font-size: 18px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 32px;
 }
 
@@ -242,7 +248,7 @@ body {
 .quienes-temp .contact h1 {
     margin-bottom: 40px;
     margin-top: 100px;
-    font-weight: bold;
+    font-family: "proxima_novabold"; 
 }
 
 .quienes-temp .contact #map {
@@ -321,7 +327,7 @@ body {
 .factoria-temp .plan h3 {
     color: #000000; 
     font-size: 16px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 24px;
 }
 
@@ -334,7 +340,7 @@ body {
 .factoria-temp .page-content .page-body h2 {
     color: #000000; 
     font-size: 32px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 38px;
     width: 500px;
 }
@@ -376,7 +382,7 @@ body {
 .factoria-content h1 {
     color: #000000; 
     font-size: 32px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 38px;
 }
 
@@ -391,7 +397,7 @@ body {
     display: block;
     color: #000000;
     font-size: 16px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 24px;
     padding-bottom: 10px;
 }
@@ -432,7 +438,7 @@ body {
 }
 .somos-content .somos-filter label {
     font-size: 16px;
-    font-weight: bold;
+    font-family: "proxima_novabold"; 
     margin: 0;
 }
 .somos-content .somos-filter select.form-control, .somos-content .somos-filter input {
@@ -529,7 +535,7 @@ body {
 .office-info h3 {
     color: #000000; 
     font-size: 16px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 24px;
 }
 .office-info a {
@@ -552,7 +558,7 @@ body {
 .office-content > h1 {
     color: #000000; 
     font-size: 32px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 38px;
 }
 .office-content > h2 {
@@ -563,7 +569,7 @@ body {
 .office-content > h3 {
     color: #FFFFFF; 
     font-size: 16px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 19px;  
     text-align: center;
     padding: 9px 23.5px 12px;
@@ -614,7 +620,7 @@ body {
 .viajes-temp .page-intro h1 {
     color: #000000; 
     font-size: 50px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 54px;
 }
 .viajes-info img {
@@ -690,7 +696,7 @@ body {
 .viajes-content .programa-section.tab-child li a {
     color: #858585; 
     font-size: 20px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 30px;
 }
 .viajes-content .programa-section.tab-child .nav .active, .viajes-content .programa-section.tab-child .nav li a:focus {
@@ -718,7 +724,7 @@ body {
     top: 110px;
     color: #000000; 
     font-size: 20px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 30px;
 }
 .viajes-content .tab-child .right span i {
@@ -762,7 +768,7 @@ body {
 
 .footer-content h1 {
     font-size: 32px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 38px;
 }
 
@@ -818,7 +824,7 @@ body {
     background-color: #B22222;
     color: #FFFFFF;     
     font-size: 18px;    
-    font-weight: bold;  
+    font-family: "proxima_novabold";   
     line-height: 22px;  
     text-align: center;
     border: none;
