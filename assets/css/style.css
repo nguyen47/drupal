@@ -23,7 +23,9 @@ body {
     clear: both;
 }
 
-
+b, strong {
+    font-family: "proxima_novabold";   
+}
 /*** HEADER ***/
 .header {
     height: 580px;

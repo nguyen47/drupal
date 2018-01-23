@@ -775,6 +775,12 @@ Author: Ryan (Lynh) Nguyen
     .plan {
         margin-top: 30px;
     }
+    .header {
+	    background-size: cover !important;
+	}
+    .page-revistas-interior .header {
+    	background-position: -600px !important;
+    }
 }
 @media screen and (max-width: 449px) {
 	.quienes-temp .page-body .section-image img {
