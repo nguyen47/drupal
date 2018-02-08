@@ -191,3 +191,15 @@ function closeNav() {
 
     });
 })(jQuery);
+
+$("document").ready(function($){
+    var nav = $('.full-header');
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 85) {
+            nav.addClass("sticky");
+        } else {
+            nav.removeClass("sticky");
+        }
+    });
+});

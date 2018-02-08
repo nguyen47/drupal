@@ -3,6 +3,9 @@ Build responsive
 Author: Ryan (Lynh) Nguyen
 */
 @media screen and (min-width: 768px) {
+    .navbar-nav {
+        float: right;
+    }
 
 }
 @media screen and (min-width: 992px) {

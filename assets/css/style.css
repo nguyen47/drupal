@@ -29,7 +29,29 @@ b, strong {
 /*** HEADER ***/
 .header {
     height: 580px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.full-header {
     padding-top: 60px;
+    transition: padding-top 0.15s ease-out;
+    transition: padding-bottom 0.15s ease-out;
+}
+.sticky {
+  z-index: 9999;
+  position: fixed !important;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  max-height: 85px;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  transition: padding-top 0.15s ease-out;
+  transition: padding-bottom 0.15s ease-out;
+  background-color: rgba(0,0,0,.8);
 }
 .header.header-home {
     height: 705px;
@@ -265,7 +287,7 @@ b, strong {
 
 .quienes-temp .contact .contact-content {
     width: 350px;
-    margin-top: 40px;
+    margin-top: 25px;
     font-size: 22px;    
     line-height: 26px;
 }
@@ -280,7 +302,14 @@ b, strong {
 }
 
 .quienes-temp .contact .contact-content p {
-    margin-left: 28px;
+    margin-left: 10px;
+    float: left;
+    width: 85%;
+}
+
+.quienes-temp .contact .contact-content p span {
+    margin-top: 10px;
+    display: block;
 }
 
 

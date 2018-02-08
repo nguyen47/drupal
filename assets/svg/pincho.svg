@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="28px" viewBox="0 0 24 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>pincho</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="pincho" fill="#B22222">
+            <path d="M16,11 C16,13.2088 14.2088,15 12,15 C9.7912,15 8,13.2088 8,11 C8,8.7912 9.7912,7 12,7 C14.2088,7 16,8.7912 16,11 Z M12,0 C18.0735714,0 23,5.19715808 23,11.6044997 C23,13.2871522 22.6621429,14.8786264 22.0492857,16.3208999 C21.5464286,17.5145056 20.855,18.6003552 20.0221429,19.5370041 L12,28 L3.97785714,19.5370041 C3.145,18.6003552 2.45357143,17.5145056 1.95071429,16.3208999 C1.33785714,14.8786264 1,13.2871522 1,11.6044997 C1,5.19715808 5.92642857,0 12,0 Z" id="Stroke-13-Copy-3"></path>
+        </g>
+    </g>
+</svg>

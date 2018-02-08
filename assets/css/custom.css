@@ -163,8 +163,8 @@ a:hover {
     padding-left: 10px;
 }
 .owl-item .journals-info .btn-round:hover {
-    background-color: #fff;
-    color: #000;
+    background-color: rgba(255,255,255,.4);
+    color: #fff;
     text-decoration: none;
 }
 .journals-slider .owl-nav .owl-prev,
@@ -258,6 +258,12 @@ a:hover {
     height: 100%;
     align-items: center;
     justify-content: center;
+}
+.slider-home .owl-nav .owl-prev .btn-nav {
+    margin-left: -5px;
+}
+.slider-home .owl-nav .owl-next .btn-nav {
+    margin-right: -2px;
 }
 .slider-home .owl-nav .btn-nav i {
     font-size: 30px;
@@ -378,13 +384,23 @@ a:hover {
     justify-content: center;
 
 }
+
+.revistas-slider.owl-carousel .journals-info a img {
+    width: 32px !important;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.revistas-slider.owl-carousel .journals-info a:hover img {
+    background: rgba(255,255,255,.4);
+}
+
+
 .revistas-slider .journals-info a {
     margin-bottom: 10px;
     display: inline-block;
     color: #fff;
-}
-.revistas-slider .journals-info a:hover {
-    color: #337ab7
 }
 .revistas-slider .journals-info a .fa-stack {
     font-size: 15px;
@@ -393,7 +409,8 @@ a:hover {
     font-size: 12px;
     padding: 6px 10px;
     margin: 0;
-    line-height: 1.2;
+    line-height: 1.4;
+    vertical-align: top;
 }
 
 .revistas-slider .owl-nav {

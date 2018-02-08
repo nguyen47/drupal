@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>kiosco</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.0656923077,10.5788846 C0.0656923077,16.2981538 4.70184615,20.9343077 10.4211154,20.9343077 C16.1403846,20.9343077 20.7765385,16.2981538 20.7765385,10.5788846 C20.7765385,4.85961538 16.1403846,0.223461538 10.4211154,0.223461538 C4.70184615,0.223461538 0.0656923077,4.85961538 0.0656923077,10.5788846 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="kiosco">
+            <g id="Group-18">
+                <g id="Group-3">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <polygon id="Fill-1" fill="#636363" mask="url(#mask-2)" points="-5.38461538 26.3846154 26.2268462 26.3846154 26.2268462 -5.22684615 -5.38461538 -5.22684615"></polygon>
+                </g>
+                <polygon id="Fill-4" fill="#FFFFFF" points="3.99922114 5.44697561 6.40148849 5.44697561 6.40148849 9.76219512 9.45851843 5.44697561 12.2753995 5.44107317 8.97614377 10.1423659 13 15.8889268 9.74410085 15.8993902 7.19359026 11.9892927 6.3365834 13.1493902 6.3365834 16 4 16"></polygon>
+                <g id="Group-17" transform="translate(12.000000, 4.000000)" fill="#FFFFFF">
+                    <polygon id="Fill-5" points="1.49470588 4.76676471 3.25941176 4.76676471 3.25941176 0.0608823529 1.49470588 0.0608823529"></polygon>
+                    <polygon id="Fill-6" points="0.0241176471 3.29617647 4.73 3.29617647 4.73 1.53147059 0.0241176471 1.53147059"></polygon>
+                </g>
+                <polygon id="Fill-7" fill="#636363" points="11.5614522 8 11 7.48873199 12.4385478 5 13 5.51097785"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
