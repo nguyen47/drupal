@@ -104,10 +104,10 @@ Author: Ryan (Lynh) Nguyen
         padding-bottom: 15px;
     }
     .quienes-temp .page-body .section-image img {
-    	height: 475px;
+        height: 475px;
     }
     .page-body .section-content {
-    	padding-top: 80px;
+        padding-top: 80px;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -132,11 +132,11 @@ Author: Ryan (Lynh) Nguyen
     }
 }
 @media screen and (max-width: 1366px) {
-	.eventos-content .eventos-ports .post-ctn img {
-		width: auto;
-		height: 255px;
-		max-width: none;
-	}
+    .eventos-content .eventos-ports .post-ctn img {
+        width: auto;
+        height: 255px;
+        max-width: none;
+    }
 }
 @media screen and (max-width: 991px) {
     .slider-home .owl-nav {
@@ -349,6 +349,7 @@ Author: Ryan (Lynh) Nguyen
         margin: 0;
     }
     .eventos-content .eventos-filter .btn-round {
+        float: left;
         margin: 0 25px 0 25px;
     }
     .somos-content .form-group {
@@ -429,7 +430,7 @@ Author: Ryan (Lynh) Nguyen
         width: 100%;
     }
     .viajes-content .somos .somos-item img {
-    	width: 100%;
+        width: 100%;
         height: auto;
     }
     .viajes-content .tab-child .right > span {
@@ -658,18 +659,18 @@ Author: Ryan (Lynh) Nguyen
         padding-left: 0;
     }
     .footer {
-    	padding-top: 50px;
+        padding-top: 50px;
     }
     .main-contain {
-    	margin-bottom: 50px;
+        margin-bottom: 50px;
     }
     .microsite-evento-template .footer-text {
-    	margin-top: 30px;
+        margin-top: 30px;
     }
     .quienes-temp .contact #map img {
-    	width: 100%;
-    	height: auto;
-    	margin-bottom: 30px;
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
     }
     .office-temp .eventos-content .eventos-filter select.form-control {
         border-radius: 0;
@@ -697,9 +698,9 @@ Author: Ryan (Lynh) Nguyen
         float: left;
         margin: 0 25px 0 0;
     }
-	.factoria-temp .page-content .page-body h2 {
-		max-width: 100%;
-	}
+    .factoria-temp .page-content .page-body h2 {
+        max-width: 100%;
+    }
     .eventos-content .eventos-ports .post-ctn img {
         width: 100%;
         height: auto;
@@ -779,17 +780,17 @@ Author: Ryan (Lynh) Nguyen
         margin-top: 30px;
     }
     .header {
-	    background-size: cover !important;
-	}
+        background-size: cover !important;
+    }
     .page-revistas-interior .header {
-    	background-position: -600px !important;
+        background-position: -600px !important;
     }
 }
 @media screen and (max-width: 449px) {
-	.quienes-temp .page-body .section-image img {
-		height: 230px;
+    .quienes-temp .page-body .section-image img {
+        height: 230px;
         width: auto;
-	}
+    }
     .slider-home .sld-ctn .sld-info {
         bottom: 30px;
     }
@@ -937,7 +938,7 @@ Author: Ryan (Lynh) Nguyen
         top: 210px;
     }
     .hightline:after {
-    	width: 100%;
+        width: 100%;
     }
 }
 @media screen and (max-width: 359px) {

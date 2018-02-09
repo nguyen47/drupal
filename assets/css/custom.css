@@ -202,6 +202,11 @@ a:hover {
     position: absolute;
     top: 0;
     z-index: 9;
+    background-image: url(../images/home-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .slider-home .owl-item {
     opacity: 1;
@@ -673,6 +678,13 @@ a:hover {
     width: auto;
     max-width: none;
 }
+.eventos-content .eventos-ports .post-ctn .eve-date img {
+    width: 24px;
+    height: 20px;
+    vertical-align: text-bottom;
+    margin-right: 5px;
+}
+
 .eventos-content .eventos-ports .post-ctn .eve-txt {
     position: relative;
     padding: 25px;
