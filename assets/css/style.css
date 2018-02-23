@@ -35,9 +35,13 @@ b, strong {
     background-size: cover;
 }
 .full-header {
-    padding-top: 60px;
     transition: padding-top 0.15s ease-out;
     transition: padding-bottom 0.15s ease-out;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 }
 .sticky {
   z-index: 9999;
@@ -46,7 +50,6 @@ b, strong {
   padding-top: 20px;
   padding-bottom: 20px;
   max-height: 85px;
-  overflow: hidden;
   left: 0;
   right: 0;
   transition: padding-top 0.15s ease-out;
@@ -105,7 +108,7 @@ b, strong {
     font-size: 50px;    
     font-family: "proxima_novabold";   
     line-height: 84px;
-    margin-top: 200px;
+    margin-top: 290px;
 }
 
 .header .main-menu {
