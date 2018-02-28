@@ -787,6 +787,9 @@ Author: Ryan (Lynh) Nguyen
     }
 }
 @media screen and (max-width: 449px) {
+	.header, .header.header-home {
+		height: 500px;
+	}
     .quienes-temp .page-body .section-image img {
         height: 230px;
         width: auto;
@@ -843,11 +846,22 @@ Author: Ryan (Lynh) Nguyen
         bottom: 0;
     }
     .slider-home .owl-nav {
-        bottom: 35%;
+        bottom: 40%;
+    }
+    .slider-home {
+    	background-position: initial;
+    	background-repeat: no-repeat;
+    	background-size: auto;
+    }
+    .item {
+    	position: relative;
+    	height: 555px;
     }
     .mobile-item {
         display: block;
         padding: 20px 15px;
+        position: absolute;
+        bottom: 50px;
     }
     .slider-home .sld-ctn .sld-info h1 {
         padding: 0;
@@ -859,10 +873,6 @@ Author: Ryan (Lynh) Nguyen
         width: 90%;
         margin: 5px auto;
     }
-    .header.header-home{
-        height: 370px;
-    }
-
     .office-temp .post-lists {
         padding: 15px;
     }
@@ -884,6 +894,12 @@ Author: Ryan (Lynh) Nguyen
     .footer-content p {
         width: 100%;
     }
+    #map iframe {
+    	width: 100% !important;
+    }
+    .quienes-temp .contact {
+    	padding-bottom: 50px;
+    }
 }
 @media screen and (max-width: 375px) {
     .page-body .section-content {
@@ -897,9 +913,6 @@ Author: Ryan (Lynh) Nguyen
     }
     .plan {
         margin-top: 30px;
-    }
-    .header, .header.header-home {
-        height: 390px;
     }
     .home-temp .post-new-section {
         padding-top: 0;
